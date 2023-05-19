@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .profile-container, .form-container, .message-container {
+    text-align: center;
+  }
+  
+  .profile-container img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .profile-container a, .form-container button, .message-container a {
+    margin-top: 20px;
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  form label{
+    margin: 0.3rem;
+  }
+  @media only screen and (max-width: 767px) {
+    body{
+      width: auto;
+      size-adjust: auto;
+    }
+    body{
+      size-adjust: auto;
+    }
+    
+
+
+
+  }
+  
